@@ -1,7 +1,7 @@
 # langchain-rag
 
 ### Data
-* 60 페이지 PDF 파일 (목차 제거)
+* 60 페이지 분량의 PDF 파일 (목차 제거)
 
 ### Tool
 * OpenAI Key 와 ElasticSearch Key는 env 파일로 관리
