@@ -2,8 +2,6 @@
 
 ### Data
 * 60 페이지 분량의 PDF 파일 (목차 제거)
-
-### Tool
 * OpenAI Key 와 ElasticSearch Key는 env 파일로 관리
 
 ### Flow
@@ -13,6 +11,15 @@
 4. 질문 시 ElasticSearch에서 관련 텍스트를 검색하여 답변 생성
 
 ### Future Work
-* 현재는 페이지 단위로 나누어져 있으나, 더 작은 단위(청크)로 쪼개서 테스트 필요
+* 현재는 페이지 단위로 나눠어져 있음, 더 작은 단위(청크)로 쪼개서 테스트 필요
 * 테이블이나 코드 등 특수 형식 텍스트에 대해 후처리 작업 필요
 * score_threshold 값에 따른 답변 결과 비교 필요
+
+
+<br><br>
+
+#### 참고
+* https://python.langchain.com/docs/tutorials/rag/#jupyter-notebook
+* [https://colab.research.google.com/github/ajwallacemusic/rag-with-chatgpt-langchain-elasticsearch]( https://colab.research.google.com/github/ajwallacemusic/rag-with-chatgpt-langchain-elasticsearch/blob/main/rag_with_chatgpt_langchain_elasticsearch.ipynb?ref=blog.gigasearch.co#scrollTo=3HFhwQLqMq4y&uniqifier=1)
+* https://cookbook.openai.com/examples/parse_pdf_docs_for_rag
+* https://python.langchain.com/docs/integrations/vectorstores/elasticsearch/#running-with-authentication
